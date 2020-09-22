@@ -6,7 +6,7 @@
    </head>
 
    <body>
-    <p><a href="kekyon.ca/index.html"> Markup </a>
+    <p><a href="kekyon.ca/markup/index.html"> Markup </a>
       </p> 
 </body>
 </html>
