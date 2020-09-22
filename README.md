@@ -8,9 +8,9 @@
     <p><a href="markup/index.html"> Markup </a>
       </p> 
   <a href="/markup/index.html"> <picture>
-  <source media="(min-width:300px)" srcset="personal logo.jpg">
-  <source media="(min-width:465px)" srcset="personal logo.jpg">
-  <img src="personal logo.jpg" alt="Logo" style="width:auto;">
+  <source media="(min-width:300px)" srcset="my-logosmall.jpg">
+  <source media="(min-width:465px)" srcset="my-logosmall.jpg">
+  <img src="Images/my-logosmall.jpg" alt="Logo" style="width:auto;">
 </picture></a>
 </body>
 </html>
