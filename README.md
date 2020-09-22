@@ -2,7 +2,6 @@
 <html>
    <head>
 <h1>Howdy</h1>
-      <title>HTML Hyperlinks</title>
    </head>
 
    <body>
