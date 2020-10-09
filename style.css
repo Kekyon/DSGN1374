@@ -25,6 +25,14 @@ h2{ text-align: center;
 
 }
 
+h3 { text-align: center;
+	text-decoration: line-through;
+	font-family: helvetica, serif;
+	text-color: white;
+
+	
+}
+
 
 
 
@@ -43,7 +51,7 @@ list-style-type: none;
 	background-size: auto;
 	margin-right: 300px;
 	margin-left: 300px;
-	margin-top: 80px;
+	
 	
 	border-style: ridge;
 	font-family: Helvetica, sans-serif;
