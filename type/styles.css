@@ -6,6 +6,29 @@ body {
 	
 }
 	
+ 
+.satin {
+    position:absolute;
+    color:pink;
+    font-size:x-large;
+    top: 1260px;
+    font-size: 200px;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+    left: 440px;
+}
+
+
+.glitches {
+    position:absolute;
+    color:pink;
+    font-size:x-large;
+    top: 1333px;
+    font-size: 200px;
+    text-transform: uppercase;
+    left: 317px;
+}
+
     
 
 .h {
@@ -51,7 +74,7 @@ body {
 
 }
 
-.one {
+.ell {
     opacity: 0;
     -webkit-animation: dot 1.3s infinite;
     -webkit-animation-delay: 0.0s;
@@ -59,7 +82,7 @@ body {
     animation-delay: 0.0s;
 }
 
-.two {
+.ip {
     opacity: 0;
     -webkit-animation: dot 1.3s infinite;
     -webkit-animation-delay: 0.2s;
@@ -67,7 +90,7 @@ body {
     animation-delay: 0.2s;
 }
 
-.three {
+.ses {
     opacity: 0;
     -webkit-animation: dot 1.3s infinite;
     -webkit-animation-delay: 0.3s;
@@ -99,15 +122,29 @@ body {
     }
 }
 
-.dumb-shit {
-font-size: 5px;
+.dumb-shit {font-size: 5px;position: absolute;transform: rotate3d(154, -571, -9, 694deg);}
 
-}
+
 
 .stupid-shit {
     line-height: 1;
     margin-left: 1058px;
     margin-right: 46px;
     position: fixed;
+    transform: skew(10deg, 10deg);
+    top: 75px;
+    font-family: IBM+Plex+Mono;
+    font-weight: 400;
 
 }
+
+
+.I-Think {
+	font-size: 70px;
+	transform: rotate(53deg);
+	position: absolute;
+	top: 1232px;
+	left: -290px;
+	color: #1563a0;
+}
+
