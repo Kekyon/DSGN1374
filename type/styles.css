@@ -1,0 +1,102 @@
+/* Type */
+
+body {
+	background-color: white;
+	color: black;
+	line-height: 1;
+	margin-left: 1048px;
+	margin-right: 59px;
+}
+	
+    
+
+.h {
+    color: red;
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    font-variant: petite-caps;
+    font-size: 115px;
+    position: fixed;
+    transform: rotate(90deg);
+    margin-right: 0px;
+    top: 652px;
+    right: -693px;
+    animation:blinkingText 1.2s infinite;
+}
+    @keyframes blinkingText{
+    0%		{color: #710707;}
+    45%		{color: #710707bf;}
+    60%		{color: #7107077a;}
+    99%		{color: #71070702;}
+    100%	{color: #71070700;}
+}
+.e {
+	left: 15px;
+	color: green;
+	font-size: 111px;
+	position: fixed;
+	top: 71px;
+	font-family: IBM+Plex+Mono;
+	font-weight: 400;
+	margin-right: 44px;
+}
+
+.l {
+	color: #2a93dead;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.p {
+	font-family: serif;
+	animation:blinkingText 1.2s infinite;
+	font-size: 20px;
+
+}
+
+.one {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.0s;
+}
+
+.two {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.2s;
+}
+
+.three {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+    animation: dot 1.3s infinite;
+    animation-delay: 0.3s;
+}
+
+@-webkit-keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
