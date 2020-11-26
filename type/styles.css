@@ -1,11 +1,9 @@
 /* Type */
 
 body {
-	background-color: white;
-	color: black;
-	line-height: 1;
-	margin-left: 1048px;
-	margin-right: 59px;
+	background-color: black;
+	color: white;
+	
 }
 	
     
@@ -99,4 +97,17 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+.dumb-shit {
+font-size: 5px;
+
+}
+
+.stupid-shit {
+    line-height: 1;
+    margin-left: 1058px;
+    margin-right: 46px;
+    position: fixed;
+
 }
