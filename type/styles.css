@@ -29,7 +29,7 @@ body {
     left: 317px;
 }
 
-    
+
 
 .h {
     color: red;
@@ -148,3 +148,11 @@ body {
 	color: #1563a0;
 }
 
+
+.cross {
+	bottom: -880px;
+	position: absolute;
+	transform: rotate(-180deg);
+	left: -3157px;
+	font-size: 26px;
+	}
