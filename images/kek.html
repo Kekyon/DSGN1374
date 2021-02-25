@@ -1,5 +1,28 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("sun.jpg");
+
+  /* Set a specific height */
+  min-height: 750px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+	
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:white;font-size:36px">
 <head>  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,12 +40,13 @@ body {
 </style>
 <body>
 
-<h2 style="text-align:center">Cool Things I Made and Junk</h2>
+<h2 style="text-align:center">Body of Work&nbsp;</h2>
 
 <!-- main thumb -->
 <div class="row">
   <div class="column">
-    <img src="Runebape_thumb.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="Runebape_thumb.jpg" width="129%" class="hover-shadow cursor" style="width:100%" onclick="openModal();currentSlide(1)">
+	  <meta name="viewport" content="width=device-width">
   </div>
   <div class="column">
     <img src="Suponjibobu_thumb.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
@@ -165,6 +189,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
-    
+</div>
+
 </body>
 </html>
